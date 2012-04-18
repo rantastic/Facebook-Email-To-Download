@@ -1,0 +1,14 @@
+/* css */
+#formError{background-color: #F2DEDE; border-color: #EED3D7; color: #B94A48;-webkit-border-top-left-radius: 6px;-webkit-border-top-right-radius: 6px;-moz-border-radius-topleft: 6px;-moz-border-radius-topright: 6px;border-top-left-radius: 6px;border-top-right-radius: 6px;}
+
+.right{float:right;}
+.left{float:left;}
+
+#theForm{width:300px; height:75px;}
+
+#emailContainer{margin-top:24px;}
+#emSub{margin-left:8px;}
+
+#success{color:green; text-align:center; font-weight:bold; font-size:24px;}
+
+#fn{display:none;}

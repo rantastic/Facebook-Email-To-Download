@@ -1,0 +1,14 @@
+A template for making a "Submit Email for Download" facebook tab.
+
+demo:  http://dev.org.org/FBemail2download/
+
+Change vars in index.php and download.php
+
+Uses sessions to remember if the user has submitted their email or not.
+A user that uses the download link with out a session will be redirected
+to the main page.
+
+May need to change permissions on the 'emails.csv' file so its writeable.
+
+File to be downloaded should be placed in a htpasswd protected folder for added security.
+Good place to generate:  http://www.htaccesstools.com/htpasswd-generator/
